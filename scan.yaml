@@ -24,7 +24,7 @@ data:
           - ".*\\.woff2"
           - ".*\\.ttf"
           - ".*\\.ico"
-          - ".*\\.css"   # second change to trigger the pipeline
+                                   # second change to trigger the pipeline
         # Auth Credentials for the scanner to access the application
         # Can be either basicAuth or a oidc token.
         # If both are set, the oidc token takes precedent
